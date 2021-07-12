@@ -222,7 +222,6 @@ public class TemperaturesFeature extends Feature {
     private String colorTemperatureLevel(Player player) {
         int temperatureLevel = getTemperatureLevel(player);
         if(temperatureLevel == 5 || temperatureLevel == 4) {
-
             return ChatColor.YELLOW.toString() + temperatureLevel;
         } else if(temperatureLevel == 6 || temperatureLevel == 7) {
             return ChatColor.GOLD.toString() + temperatureLevel;
